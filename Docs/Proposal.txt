@@ -1,0 +1,33 @@
+We will be pulling the data from:
+    API - Open Weather Api
+    Scraping - Weather.com
+    
+    
+for:
+    High
+    Low
+    Humidity
+    Pressure
+
+for a list of cities.
+--------------------------------------------
+
+we will clean up the data gathered and put them into
+pandas Dataframes to be loaded into a sqlite db
+
+---------------------------------------------
+
+The data will be uploaded into a database with the tabels:
+    Scraped
+    Api
+    
+That each contain cols called:
+    City
+    High
+    Low
+    Humidity
+    Pressure
+    
+The end goal is to compare these 2 sources of weather data and look for diffrences
+there shouldnt be any as both scripts should be run at the same time and contain the same 
+values.
