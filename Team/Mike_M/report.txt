@@ -1,3 +1,5 @@
-Our plan was to gather weather data for 10 cities in the USA. My my of the project job was to use https://openweathermap.org/api to extract the high, low, and current temperatures as well the humidity, and barometric pressure, and finally the date so that there would be a record of when the data was collected. 
+Mica Malleus -- ETL
+
+Our plan was to gather weather data for 10 cities in the USA. My part of the project job was to use https://openweathermap.org/api to extract the high, low, and current temperatures as well the humidity, and barometric pressure, and finally the date so that there would be a record of when the data was collected. 
 
 I wrote a script to gather the stats we wanted and saved that to a Pandas dataframe where The data was transformed by updating the columns names and  also used datetime to convert UNIX time to a regular date time. The dataframe was exported to a csv file. Finally, the Pandas script was saved out to a Python file and wrapped in a function so that Dave could run both the API script and his Web scraping script simultaneously.
