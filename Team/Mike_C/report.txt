@@ -1,1 +1,10 @@
-blank
+Michael Cherkassky ETL
+----Part-----
+I set up the SQLite Database to mirror the CSV's that were created.
+I also performed some web scraping to gather descriptive text on each city in our database.
+
+---Problems----
+No big issues on this end aside from setting up the database correctly to mirror exact format of the CSV's.
+Git push/pull/etc.
+Re-importing over tables that were already created caused some problems, but nothing we couldn't work through.
+Funky data coming from web scraping made us think critically on how to set up our schema (Dave's High reading coming in as '--' rather than an actual number).
