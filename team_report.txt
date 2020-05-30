@@ -9,3 +9,19 @@ I wrote a script to gather the stats we wanted and saved that to a Pandas datafr
 names and  also used datetime to convert UNIX time to a regular date time. The dataframe was exported to a csv file. Finally, the Pandas
 script was saved out to a Python file and wrapped in a function so that Dave could run both the API script and his Web scraping script
 simultaneously.
+
+
+Dave ETL report
+--- Part ---
+I managed the git repo and was responsible for 
+the webscraping of weather.com. for the most part I was able to
+get everything done as intended. 
+
+-- problems -- 
+the webscraping itself was strange in that what I pulled from
+the site was inconsistent each time I ran the file. I’m thinking that
+it is caused by whatever they’re using to generate their webpage but the 
+html I pulled didn’t stay consistent.
+- Fix - 
+managed to get it to work by rerunning the script on a loop until
+all the cities I wanted data for where filled in.

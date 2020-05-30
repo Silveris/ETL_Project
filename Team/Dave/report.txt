@@ -1,0 +1,14 @@
+Dave ETL report
+--- Part ---
+I managed the git repo and was responsible for 
+the webscraping of weather.com. for the most part I was able to
+get everything done as intended. 
+
+-- problems -- 
+the webscraping itself was strange in that what I pulled from
+the site was inconsistent each time I ran the file. I’m thinking that
+it is caused by whatever they’re using to generate their webpage but the 
+html I pulled didn’t stay consistent.
+- Fix - 
+managed to get it to work by rerunning the script on a loop until
+all the cities I wanted data for where filled in.
